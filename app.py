@@ -41,7 +41,7 @@ MinorImageVersion= st.number_input('MinorImageVersion',min_value=xmin[0],max_val
 MajorSubsystemVersion= st.number_input('MajorSubsystemVersion',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 MinorSubsystemVersion= st.number_input('MinorSubsystemVersion',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 SizeOfHeaders= st.number_input('SizeOfHeaders',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
-CheckSum = st.number_input('CheckSum',min_value=xmin[0],max_value=xmax[0],value=60601,step=1)
+CheckSum = st.number_input('CheckSum',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 Subsystem = st.number_input('Subsystem',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 DllCharacteristics = st.number_input('DllCharacteristics',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 SizeOfStackReserve= st.number_input('SizeOfStackReserve',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
