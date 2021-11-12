@@ -23,12 +23,12 @@ model = joblib.load("malware_detection_TF")
 
 xmin = np.min(x_vif,axis=0)#min values in the datasets
 xmax = np.max(x_vif,axis=0)#max values in the datasets
-e_lfanew = st.number_input('e_lfanew',min_value=xmin[0],max_value=xmax[0],value=5,step=1)
+e_lfanew = st.number_input('e_lfanew',min_value=xmin[0],max_value=xmax[0],value=20,step=1)
 NumberOfSections = st.number_input('NumberOfSections',min_value=xmin[1],max_value=xmax[1],value=5,step=1)
-CreationYear = st.number_input('CreationYear',min_value=xmin[2],max_value=xmax[2],value=5,step=1)
+CreationYear = st.number_input('CreationYear',min_value=xmin[2],max_value=xmax[2],value=1980,step=1)
 PointerToSymbolTable = st.number_input('PointerToSymbolTable',min_value=xmin[3],max_value=xmax[3],value=5,step=1)
 NumberOfSymbols = st.number_input('NumberOfSymbols',min_value=xmin[4],max_value=xmax[4],value=5,step=1)
-Characteristics = st.number_input('Characteristics',min_value=xmin[5],max_value=xmax[5],value=5,step=1)
+Characteristics = st.number_input('Characteristics',min_value=xmin[5],max_value=xmax[5],value=50,step=1)
 MajorLinkerVersion = st.number_input('MajorLinkerVersion',min_value=xmin[6],max_value=xmax[6],value=5,step=1)
 MinorLinkerVersion = st.number_input('MinorLinkerVersion',min_value=xmin[7],max_value=xmax[7],value=5,step=1)
 ImageBase = st.number_input('ImageBase',min_value=xmin[8],max_value=xmax[8],value=5,step=1)
