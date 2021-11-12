@@ -1,4 +1,3 @@
-%%writefile app.py
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
