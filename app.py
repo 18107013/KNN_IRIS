@@ -13,8 +13,6 @@ df = data.drop(["e_magic","e_crlc","e_res","e_res2"],axis=1)
 labels = df["class"].values
 
 df_new = df[["LoaderFlags","NumberOfSymbols","BaseOfCode","MajorImageVersion","MinorImageVersion" ,"CheckSum"]]
-
-
 x_train,x_test,y_train,y_test = train_test_split(df_new,labels,test_size=0.2,random_state=101)
 model = RandomForestClassifier(n_estimators=50)
 model.fit(x_train,y_train)
