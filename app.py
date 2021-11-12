@@ -46,7 +46,7 @@ Subsystem = st.number_input('Subsystem',min_value=xmin[0],max_value=xmax[0],valu
 DllCharacteristics = st.number_input('DllCharacteristics',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 SizeOfStackReserve= st.number_input('SizeOfStackReserve',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 SizeOfStackCommit= st.number_input('SizeOfStackCommit',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
-SizeOfHeapReserve= st.number_input('SizeOfStackReserve',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
+SizeOfHeapReserve= st.number_input('SizeOfHeapReserve',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 SizeOfHeapCommit= st.number_input('SizeOfHeapCommit',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 LoaderFlags = st.number_input('LoaderFlags',min_value=xmin[0],max_value=xmax[0],value=50,step=1)
 
