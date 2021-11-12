@@ -17,7 +17,7 @@ x_vif = df[["e_lfanew","NumberOfSections","CreationYear","PointerToSymbolTable",
             "MinorLinkerVersion","ImageBase","SectionAlignment","FileAlignment","MajorOperatingSystemVersion","MinorOperatingSystemVersion","MajorImageVersion",
            "MinorImageVersion","MajorSubsystemVersion","MinorSubsystemVersion","SizeOfHeaders","CheckSum","Subsystem","DllCharacteristics","SizeOfStackReserve","SizeOfStackCommit",
             "SizeOfHeapReserve","SizeOfHeapCommit","LoaderFlags"]]
-model = joblib.load("malware_detection_VIF")
+model = joblib.load("malware_detection_TF")
 
 
 
